@@ -12,7 +12,6 @@ This hands-on machine learning system:
 📁 Repository Structure
 
 FUTURE_ML_02/
-│
 ├── UI.py # Streamlit web app for uploading and predicting
 ├── model_training.ipynb # Jupyter notebook for training and evaluation
 ├── xgboost_model.pkl # Trained XGBoost model
