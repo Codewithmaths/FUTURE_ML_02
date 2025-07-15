@@ -12,13 +12,13 @@ This hands-on machine learning system:
 📁 Repository Structure
 
 FUTURE_ML_02/
-├── UI.py # Streamlit web app for uploading and predicting
-├── model_training.ipynb # Jupyter notebook for training and evaluation
-├── xgboost_model.pkl # Trained XGBoost model
-├── churn_predictions.csv # Example prediction output
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv # Dataset used (Telco churn)
-├── requirements.txt # Required Python libraries
-└── README.md # Project documentation
+├── UI.py # Streamlit web app for uploading and predicting <br>
+├── model_training.ipynb # Jupyter notebook for training and evaluation<br>
+├── xgboost_model.pkl # Trained XGBoost model<br>
+├── churn_predictions.csv # Example prediction output<br>
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv # Dataset used (Telco churn)<br>
+├── requirements.txt # Required Python libraries<br>
+└── README.md # Project documentation<br>
 
 
 ---
