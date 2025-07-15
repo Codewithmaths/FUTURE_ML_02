@@ -9,7 +9,7 @@ This hands-on machine learning system:
 - Highlights the most important features influencing churn.
 - Provides both a report and a web interface for easy interaction.
 
-## 📁 Repository Structure
+📁 Repository Structure
 
 FUTURE_ML_02/
 │
