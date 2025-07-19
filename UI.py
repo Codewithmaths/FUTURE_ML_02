@@ -34,7 +34,7 @@ if uploaded_file is not None:
     data = pd.read_csv(uploaded_file)
 
     st.subheader("Raw Input Data")
-    st.write(data.head())
+    st.write(data)
 
     # Clean 'TotalCharges' and convert numeric columns
     for col in numeric_cols:
@@ -65,7 +65,7 @@ if uploaded_file is not None:
     data['Predicted Churn'] = np.where(preds == 1, 'Yes', 'No')
 
     st.subheader("🔍 Prediction Results")
-    st.write(data[['Churn Probability', 'Predicted Churn']].head())
+    st.write(data[['Churn Probability', 'Predicted Churn']])
 
     # Download predictions
     csv = data.to_csv(index=False).encode('utf-8')
